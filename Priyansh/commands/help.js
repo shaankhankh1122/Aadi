@@ -64,7 +64,7 @@ if (args[0] == "all") {
      var obj = Object.keys(data);
     var firstname = data[obj].name.replace("@", "");
     let callback = function () {
-        api.sendMessage({ body:`𝐎𝐰𝐧𝐞𝐫 ➻   𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮\n🙋 ───────────────── 🙋\n\n♥️ COMMAND LIST ♥️\n\n` + msg + `\nSpamming the bot are strictly prohibited\n\nTotal Commands: ${commands.size}\n\nFor All Cmds Type help2\n\nDeveloper:\n\n𝐎𝐰𝐧𝐞𝐫 ➻    𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮\n\n● ───────────────── ●\n\n`, mentions: [{
+        api.sendMessage({ body:`𝐎𝐰𝐧𝐞𝐫 ➻   𝐒𝐡𝐚𝐚𝐧 𝐊𝐡𝐚𝐧\n🙋 ───────────────── 🙋\n\n♥️ COMMAND LIST ♥️\n\n` + msg + `\nSpamming the bot are strictly prohibited\n\nTotal Commands: ${commands.size}\n\nFor All Cmds Type help2\n\nDeveloper:\n\n𝐎𝐰𝐧𝐞𝐫 ➻    𝐒𝐡𝐚𝐚𝐧\n\n● ───────────────── ●\n\n`, mentions: [{
                            tag: firstname,
                            id: admID,
                            fromIndex: 0,
@@ -107,7 +107,7 @@ const first = numberOfOnePage * page - numberOfOnePage;
 
     const siu = `𝐎𝐰𝐧𝐞𝐫 ➻   𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮`;
 
- const text = `\nPAGE 𒁍 (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})\n\nOR COMMAND KE LIYE HELP-2 TYPE KRO\n\n𝐎𝐰𝐧𝐞𝐫 ➻   𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮\n\n● ──────────────────── ●\n\n𝐌𝐘 𝐎𝐰𝐧𝐞𝐑 𝐀𝐚𝐝𝐢 𝐁𝐚𝐁𝐮 .... < 𝐄𝐃𝐈𝐓 > .... 𝐘𝐞 𝐁𝐨𝐓 𝐒𝐢𝐫𝐅 𝐎𝐰𝐧𝐞𝐑 𝐊 𝐋𝐢𝐘𝐞 𝐇 .... 𝐌𝐮𝐣𝐇𝐞 𝐀𝐚𝐏 𝐋𝐨𝐆𝐨 𝐊𝐨 𝐇𝐚𝐬𝐚𝐍𝐞 𝐊 𝐋𝐢𝐘𝐞 𝐁𝐚𝐧𝐘𝐚 𝐆𝐲𝐚 𝐇 𝐓𝐨𝐇 𝐇𝐚𝐩𝐩𝐘 𝐑𝐞𝐇𝐚𝐍𝐀 𝐀𝐩𝐩𝐤𝐚 𝐀𝐩𝐩𝐧𝐚 𝐎𝐰𝐧𝐞𝐑 𝐀𝐚𝐝𝐢 𝐁𝐚𝐁𝐮\n\n● ─────────────────── ●\n\n`;
+ const text = `\nPAGE 𒁍 (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})\n\nOR COMMAND KE LIYE HELP-2 TYPE KRO\n\n𝐎𝐰𝐧𝐞𝐫 ➻   𝐒𝐡𝐀𝐚𝐍\n\n● ──────────────────── ●\n\n𝐌𝐘 𝐎𝐰𝐧𝐞𝐑 𝐒𝐡𝐀𝐚𝐍 .... < 𝐄𝐃𝐈𝐓 > .... 𝐘𝐞 𝐁𝐨𝐓 𝐒𝐢𝐫𝐅 𝐎𝐰𝐧𝐞𝐑 𝐊 𝐋𝐢𝐘𝐞 𝐇 .... 𝐌𝐮𝐣𝐇𝐞 𝐀𝐚𝐏 𝐋𝐨𝐆𝐨 𝐊𝐨 𝐇𝐚𝐬𝐚𝐍𝐞 𝐊 𝐋𝐢𝐘𝐞 𝐁𝐚𝐧𝐘𝐚 𝐆𝐲𝐚 𝐇 𝐓𝐨𝐇 𝐇𝐚𝐩𝐩𝐘 𝐑𝐞𝐇𝐚𝐍𝐀 𝐀𝐩𝐩𝐤𝐚 𝐀𝐩𝐩𝐧𝐚 𝐎𝐰𝐧𝐞𝐑 𝐚𝐍 𝐊𝐡𝐀𝐍\n\n● ─────────────────── ●\n\n`;
     var link = [
 "https://i.imgur.com/LKrOufP.jpeg", 
 "https://i.imgur.com/LKrOufP.jpeg"
