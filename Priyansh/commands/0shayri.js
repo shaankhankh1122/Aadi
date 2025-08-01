@@ -6,8 +6,8 @@ module.exports.config = {
     name: "shayri",
     version: "1.1.0",
     hasPermssion: 0,
-    credits: "SHANKAR-PROJECT",
-    description: "YEH BOT SHANKAR SUMAN DWARA BANAYA GAYA HAI",
+    credits: "SHAAN-PROJECT",
+    description: "YEH BOT SHAAN DWARA BANAYA GAYA HAI",
     commandCategory: "SHAYRI+PROFILE",
     usePrefix: false,
     cooldowns: 0
@@ -88,7 +88,7 @@ const sendShayariWithProfilePic = async (api, shayari, picture, threadID, messag
     const formattedMessage = `
 ❁━━━━━━【 शायरी 】━━━━━━❁\n
 "❝${translatedShayari}❞"\n
-❁━━━━━【 𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮  】━━━━━❁
+❁━━━━━【  𝐒𝐡𝐚𝐚𝐧 𝐊𝐡𝐚𝐧  】━━━━━❁
     `;
     
     api.sendMessage({
