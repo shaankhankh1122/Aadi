@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("GM")==0 || event.body.indexOf("Gm")==0 || event.body.indexOf("Good morning")==0 || event.body.indexOf("GOOD MORNING")==0) {
 		var msg = {
-				body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮\n< ────────────────── >\n\n⎯꯭֯🌸⃪ ꯭⃛֯G❍❍𝐃 ɱ❍ɽηIIηG\n< ────────────────── >",
+				body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝐒𝐡𝐚𝐚𝐧 𝐊𝐡𝐚𝐧\n< ────────────────── >\n\n⎯꯭֯🌸⃪ ꯭⃛֯G❍❍𝐃 ɱ❍ɽηIIηG\n< ────────────────── >",
 				attachment: fs.createReadStream(__dirname + `/noprefix/received_1083155713406602.mp4`)
 			}
 			api.sendMessage(msg, threadID, messageID);
